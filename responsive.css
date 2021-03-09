@@ -1,0 +1,168 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    html{
+        font-size: 30%;
+    }
+    .section-2{
+        height: auto;
+    }
+    .cards-cointainer{
+        margin-top: 10rem;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 5rem;
+    }
+    .food-img {
+        height: 25vh;
+        width: 36vw;
+        margin: 5rem;
+        object-fit: cover;
+    }
+    .food-name{
+        top: 8rem;
+        left: 6rem;
+        font-size: 3rem;
+    }
+    .food-description{
+        bottom: 13vh;
+        left: 4rem;
+        font-size: 1.8rem;
+    }
+    .section-4{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .section-4-text{
+        margin-bottom: 10rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .food-img{
+        width: 35vh;
+    }
+    .cards-cointainer{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 35rem;
+    }
+    
+    
+    }
+    
+
+    @media only screen and (max-width: 320px){
+
+        .section-4-text{
+            margin-bottom: 7rem;
+        }
+    }
+    
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    html{
+        font-size: 35%;
+    }
+    .section-2{
+        height: auto;
+    }
+    .cards-cointainer{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 8rem;
+        width: 35rem;
+    }
+    .food-img{
+        width: 39vw;
+    }
+    .food-name{
+        top: 5rem;
+        font-size: 3rem;
+    }
+    .food-description{
+        bottom: 8vh;
+        font-size: 1.8rem;
+    }
+    .section-4{
+        height: 30vh;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    html{
+        font-size: 40%;
+    }
+    .cards-cointainer{
+        margin-top: 10rem;
+    }
+    .card{
+        width: 30rem;
+        margin: 0 5rem;
+    }
+    .section-4{
+        height: 35vh;
+    }
+
+}
+@media only screen and (max-width: 768px){
+
+    .section-4{
+        height: 26vh;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    html{
+        font-size: 45%;
+    }
+    .food-img{
+        width: 26vw;
+    }
+    .cards-cointainer{
+
+        margin: 16rem 0rem 5rem 5rem
+    }
+    .food-name{
+        top: 4rem;
+    }
+    .food-description{
+        bottom: 6vh;
+        font-size: 1.6rem;
+    }
+    .section-4{
+        height: 44vh;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    html{
+        font-size: 50%;
+    }
+    .food-name{
+        top: 3rem;
+    }
+
+}
